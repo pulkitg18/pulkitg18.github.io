@@ -204,7 +204,7 @@ log8.display();
     }
  if(count <= 20 && score === 2600 ){
     textSize(60);
-    text("YOU LOST PRESS CONTROL + R TO START NEW GAME",200,620);
+    text("YOU WON PRESS CONTROL + R TO START NEW GAME",200,620);
      gameState = "end";
  }
 }
